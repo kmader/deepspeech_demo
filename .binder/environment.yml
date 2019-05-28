@@ -12,7 +12,15 @@ dependencies:
   - six==1.12.0
   - pandas
   - pyxdg
+  - sox
+  - librosa
+  - soundfile
+  - scipy
+  - matplotlib
   - pip:
     - deepspeech
     - progressbar2
     - ipywebrtc
+    - bs4
+    - requests
+    - paramiko >= 2.1
