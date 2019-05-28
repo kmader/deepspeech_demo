@@ -6,21 +6,20 @@ dependencies:
   - attrdict==2.0.0
   - tensorflow==1.13.1
   - numpy==1.16.0
-  - pkg-resources==0.0.0
-  - progressbar2==3.39.2
   - python-utils==2.3.0
   - six==1.12.0
   - pandas
   - pyxdg
   - sox
   - librosa
-  - soundfile
   - scipy
   - matplotlib
   - pip:
-    - deepspeech
-    - progressbar2
+    - progressbar2==3.39.2
     - ipywebrtc
     - bs4
     - requests
     - paramiko >= 2.1
+    - pkg-resources==0.0.0
+    - deepspeech
+    - soundfile
