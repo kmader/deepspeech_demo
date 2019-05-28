@@ -20,6 +20,5 @@ dependencies:
     - bs4
     - requests
     - paramiko >= 2.1
-    - pkg-resources==0.0.0
     - deepspeech
     - soundfile
